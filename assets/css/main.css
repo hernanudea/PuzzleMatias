@@ -1,0 +1,33 @@
+* {
+    margin-inside: 0;
+    padding: 0;
+}
+
+section {
+    width: 80%;
+    max-width: 1000px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    float: left;
+    width: 25%;
+}
+
+ul li img {
+    vertical-align: bottom;
+    width: 100%;
+    height: 100%;
+}
+h1{
+    text-align: center;
+    font-size: 2.5em;
+}
+h1::first-letter{
+    color: gold;
+}
